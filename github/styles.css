@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2382ff;
+}
+
+header {
+    background-color: #05e2ff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 18px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.Coach-card, .team-card {
+
+    background-color: #05e2ff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #05e2ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

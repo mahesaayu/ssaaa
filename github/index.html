@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Smakanza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Basketball Smakanza</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Coach">Coach</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#form">Form Pendaftaran</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to SMAKANZA BASKETBALL!!</h2>
+        <p>Hallo teman-teman smakanza,untuk adik-adik kelas 10 yang berminat masuk basket ayoo joinnn guyss!!!!!</p>
+
+         <p>informasi untuk ekstrakurikuler basketball smakanza </p>
+         <p> hari : sabtu dan minggu </p>
+         <p> jam : 07.30 - selesai</p>
+            
+           <p> SYARAT!!!</p>
+           <p>1. Siswa SMK NEGERI 1 WONOSOBO</p>
+           <p>2. Izin dengan orang tua <p></p>
+           <p>3. Disipin dan konsisten dalam latihan</p>
+           <p>4. Good attitude</p>
+        
+        <img src="gambar/team.jpg"  width="500px" height="500"/>
+        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
+    </section>
+
+    <section id="Coach">
+        <h2>Coach</h2>
+        <div class="Coach-card">
+            <h3>Head Coach</h3>
+            <p>Pandu Arif Fadilah</p>
+        </div>
+        <div class="Coach-card">
+            <h3>Assistant Coach</h3>
+            <p>Nur Cahyo</p>
+        </div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
+    </section>
+
+    <section id="teams">
+        <h2>Teams</h2>
+        <div class="team-card">
+            <h3>Team Laki-Laki</h3>
+            <p>Team laki-laki tahun ini memenangkan juara 2 di Popda Kabupaten dan juara 2 di Liga Pelajar PERBASI tahun 2024</p>
+            <p><img src="gambar/laki laki.jpg" width="300px" height="300px" ><align="right"></align></p>
+        </div >
+        <div class="team-card">
+            <h3>Team Perempuan</h3>
+            <p> Team perempuan memenangkan juara 2 pada Liga Pelajar PERBASI tahun 2024</p>
+            <p><img src="gambar/perempuan.jpg" width="300px" height="300px"></p>
+        </div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/smakanzabasketball" target="_blank">smakanzabaskelball</a></p>
+        <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/hess4_" target="_blank">hess44_</a></p>
+        <p><img src="gambar/whatsapp.png"  width="20px" height="20px"/> <a href="https://wa.me/08995125691" target="_blank"> mahesa </a> </p>
+        
+        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
+        
+    </footer>
+
+    <section id="form"></section> 
+    <html lang="en"> </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        /* Contoh styling sederhana */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .form-submit {
+            padding: 10px 20px;
+            background-color: #e93e0a;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-submit:hover {
+            background-color: #e93e0a;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form Pendaftaran</h2>
+    <form action="proses_pendaftaran.php" method="post">
+        <!-- Grup untuk input nama -->
+        <div class="form-group">
+            <label for="nama" class="form-label">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" class="form-input" required>
+        </div>
+
+        <!-- Grup untuk input email -->
+        <div class="form-group">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+        </div>
+         <!-- Grup untuk input dari kelas berapa -->
+         <div class="form-group">
+            <label for="kelas" class="form-label">Kelas berapa :</label>
+            <input type="kelas" id="kelas" name="kelas" class="form-input" required>
+        </div>
+
+        <!-- Tombol submit -->
+        <div class="form-group">
+            <input type="submit" class="form-submit" value="Daftar">
+        </div>
+        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
+    </form>
+
+</body>
+</html>
+
+
+
