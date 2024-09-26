@@ -42,7 +42,7 @@ section {
     text-align: left;
 }
 
-.Coach-card, .team-card {
+.Coach-card, .team-card, .Member-card {
 
     background-color: #05e2ff;
     padding: 10px;
