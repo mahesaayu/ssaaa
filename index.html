@@ -17,174 +17,180 @@
                 <li><a href="#Member">Member</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#form">Form Pendaftaran</a></li>
-               
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Welcome to SMAKANZA BASKETBALL!!</h2>
-        <p>Hallo teman-teman smakanza,untuk adik-adik kelas 10 yang berminat masuk basket ayoo joinnn guyss!!!!!</p>
+    <main>
+        <section id="home">
+            <h2>Welcome to SMAKANZA BASKETBALL!!</h2>
+            <p>Hallo teman-teman Smakanza, untuk adik-adik kelas 10 yang berminat masuk basket, ayo join guys!</p>
+            <p><strong>Informasi Ekstrakurikuler:</strong></p>
+            <ul>
+                <li>Lokasi: Lapangan SMK 1 Wonosobo</li>
+                <li>Hari: Sabtu dan Minggu</li>
+                <li>Jam: 07.30 - selesai</li>
+            </ul>
+            <p><strong>Syarat:</strong></p>
+            <ul>
+                <li>Siswa SMK Negeri 1 Wonosobo</li>
+                <li>Izin dari orang tua</li>
+                <li>Disiplin dan konsisten dalam latihan</li>
+                <li>Good attitude</li>
+            </ul>
+            <img src="gambar/team.jpg" alt="Tim Basket Smakanza" width="500px" height="500px">
+        </section>
+            <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
+       
 
-         <p>Informasi untuk ekstrakurikuler basketball smakanza </p>
-         <p>Lokasi : Lapangan SMK 1 Wonosobo</p>
-         <p>Hari : sabtu dan minggu </p>
-         <p>Jam : 07.30 - selesai</p>
-            
-           <p>   SYARAT!!!</p>
-           <p>1. Siswa SMK NEGERI 1 WONOSOBO</p>
-           <p>2. Izin dengan orang tua <p></p>
-           <p>3. Disipin dan konsisten dalam latihan</p>
-           <p>4. Good attitude</p>
+        <section id="Coach">
+            <h2>Coach</h2>
+            <div class="Coach-card">
+                <h3>Head Coach: Pandu Arif Fadilah</h3>
+                <img src="gambar/head coach.jpg" alt="Pandu Arif Fadilah" width="200px" height="200px">
+                <p><a href="https://www.instagram.com/pandu_arif25" target="_blank"><img src="gambar/logo instagram.png" alt="Instagram" width="20px" height="20px"> pandu_arif25</a></p>
+            </div>
+            <div class="Coach-card">
+                <h3>Assistant Coach: Nur Cahyo</h3>
+                <img src="gambar/ass coach.jpg" alt="Nur Cahyo" width="200px" height="200px">
+                <p><a href="https://www.instagram.com/cahyooo13_" target="_blank"><img src="gambar/logo instagram.png" alt="Instagram" width="20px" height="20px"> cahyooo13_</a></p>
+            </div>
+        </section>
+        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
+    
+
+        <section id="teams">
+            <h2>Teams</h2>
+            <div class="team-card">
+                <h3>Team Boys</h3>
+                <p>Tim laki-laki berhasil memenangkan peringkat 2 di Popda Kabupaten dan peringkat 2 di Liga Pelajar PERBASI tahun 2024.</p>
+                <img src="gambar/laki laki.jpg" alt="Team Boys" width="300px" height="300px">
+            </div>
+            <div class="team-card">
+                <h3>Team Girls</h3>
+                <p>Tim perempuan berhasil memenangkan peringkat 2 pada Liga Pelajar PERBASI tahun 2024.</p>
+                <img src="gambar/perempuan.jpg" alt="Team Girls" width="300px" height="300px">
+            </div>
+        </section>
+        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
+       
+
+        <section id="Member">
+            <h2>Member</h2>
         
-        <img src="gambar/team.jpg"  width="500px" height="500"/>
-        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-    </section>
+            <!-- Member Boy -->
+            <div class="Member-card">
+                <h3>Member Boy</h3>
+                <ul id="member-boy-list">
+                    <li>1. Febrian Chandra Pradana / XII TJKT 1</li>
+                    <li>2. Prince Obrian Valentino Kaia / X KL 2</li>
+                    <li>3. Muhammad Afnan Fayadh / X AKL 3</li>
+                    <li>4. Arya Manggala Zefanya / X PPLG 1</li>
+                    <!-- Hidden items -->
+                    <div id="more-boys" style="display: none;">
+                        <li>5. Khaidar Sinaan As-shidqii /X PPLG 2</li>
+                        <li>6. Ahmad Taqiyudin Assarof /X PPLG 1</li>
+                        <li>7. Afka Fawwas Syafiq / X AKL 2</li>
+                        <li>8. Zaki Ramadhan Putra / XII TKJ 1</li>
+                    </div>
+                </ul>
+                <button id="toggle-boys" onclick="toggleMoreBoys()">Lihat Lebih Banyak</button>
+            </div>
+        
+            <!-- Member Girl -->
+            <div class="Member-card">
+                <h3>Member Girl</h3>
+                <ul id="member-girl-list">
+                    <li>1. Irda Dwi Agustina / XI MLog</li>
+                    <li>2. Laeli Cahyaningrum / X AKL 3</li>
+                    <li>3. Wigati Friska Cahyaning Tyas / X ULP</li>
+                    <li>4. Bulan Utami Kecil / X KL 1</li>
+                    <!-- Hidden items -->
+                    <div id="more-girls" style="display: none;">
+                        <li>5. Uswatun Chasanah / X MPLB 3</li>
+                        <li>6. Maetriya Mahesa Ayu / XI RPL 1</li>
+                        <li>7. Syifa Dewi Nuraini / X ULP</li>
+                        <li>8. Kirani Adya Putri Irawan / X AKL 3</li>
+                        <li>9. Nadjwa Mulia Dewa Agkhitsna / X DKV 2</li>
+                        <li>10. Nurul hanifah / X AKL 3</li>
+                        <li>11. Dania Rizki Irvanti / XII BR</li>
+                        <li>12. Salsabila Racitra Setyaningrum/ XI MP 2</li>
+                        <li>13. Nazahra Medina Safeer / X ULP</li>
+                        <li>14. Atala Zaneta Hamzah / XII ULW</li>
+                        <li>15. Herdina Sholekhah/ XII AKL 2</li>
+                        <li>16. Tia Lestari / XII TKJ 2</li>
+                        <li>17. Agisca Nayza Aramita / X PM 3</li>
+                        <li>18. Reisya putri suswandi/ X MPLB 3</li>
 
-    <section id="Coach">
-        <h2>Coach</h2>
-        <div class="Coach-card">
-            <h3>Head Coach</h3>
-            <p>Pandu Arif Fadilah</p>
-            <p><img src="gambar/head coach.jpg" width="200px" height="200px"><align="right></align></p>
-            <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/pandu_arif25" target="_blank">pandu_arif25</a></p>
-
-        </div>
-        <div class="Coach-card">
-            <h3>Assistant Coach</h3>
-            <p>Nur Cahyo</p>
-            <p><img src="gambar/ass coach.jpg" width="200px" height="200px"><align="right></align>"</p>
-            <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/cahyooo13_" target="_blank">cahyooo13_</a></p>
-        </div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-    </section>
-
-    <section id="teams">
-        <h2>Teams</h2>
-        <div class="team-card">
-            <h3>Team Boys</h3>
-            <p>Tim laki-laki berhasil memenangkan Peringkat 2 di Popda Kabupaten dan Peringkat 2 di Liga Pelajar PERBASI tahun 2024</p>
-            <p><img src="gambar/laki laki.jpg" width="300px" height="300px" ><align="right"></align></p>
-        </div >
-        <div class="team-card">
-            <h3>Team Girls</h3>
-            <p> Tim perempuan berhasil memenangkan Peringkat 2 pada Liga Pelajar PERBASI tahun 2024</p>
-            <p><img src="gambar/perempuan.jpg" width="300px" height="300px"></p>
-        </div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-
-    </section>
-    <section id="Member">
-        <h2>Member</h2>
-        <div class="Member-card">
-            <h3>Member Boy</h3>
-            <p>1.febrian chandra pradana/xii tjkt 1</p>
-            <p> 2.prince obrian valentino kaia/ x kl 2</p>
-            <p>3.Muhammad afnan Fayadh / X AKL 3</p>
-            <p>4.Arya Manggala Zefanya /  X PPLG 1</p>
-            <p>5.Khaidar Sinaan As-shidqii /X PPLG 2</p>
-            <p>6.Ahmad Taqiyudin Assarof /X PPLG 1</p>
-            <p>6.Ahmad Taqiyudin Assarof /X PPLG 1</p>
-            <p>7.Afka Fawwas Syafiq / X AKL 2</p>
-            <p>8.zaki ramadhan putra / XII tkj 1</p>
-        </div>
-        <div class="Member-card">
-            <h3>Member Girl</h3>
-            <p>1. Irda Dwi Agustina / XI MLog</p>
-            <p>2. Laeli Cahyaningrum/X AKL 3</p>
-            <p>3. Wigati Friska Cahyaning Tyas / X ULP </p>
-            <p>4. Bulan Utami Kecil / X KL 1</p>
-            <p>5. Uswatun Chasanah / X MPLB 3</p>
-            <p>6. Maetriya Mahesa Ayu / XI RPL 1</p>
-            <p>7. Syifa Dewi Nuraini / X ULP </p>
-            <p>8. Kirani Adya Putri Irawan / X AKL 3</p>
-            <p>9. Nadjwa Mulia Dewa Agkhitsna / X DKV 2</p>
-            <p>10. Nurul hanifah / X AKL 3</p>
-            <p>11. Dania Rizki Irvanti / XII BR</p>
-            <p>12. Salsabila Racitra Setyaningrum/ XI MP 2</p>
-            <p>13. Nazahra Medina Safeer /X ULP</p>
-            <p>14. Atala Zaneta Hamzah/ XII ULW</p>
-            <p>15. Herdina Sholekhah/ XII AKL 2</p>
-            <p>16. Tia Lestari / XII TKJ 2</p>
-            <p>17. Nadyra Nur Farida / XII KL 2</p>
-            <p>18. Reisya putri suswandi/x mplb 3</p>
-        </div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-    </section>
-
+                        <!-- Continue for the rest of the members -->
+                    </div>
+                </ul>
+                <button id="toggle-girls" onclick="toggleMoreGirls()">Lihat Lebih Banyak</button>
+            </div>
+        </section>
+        <script>
+            function toggleMoreBoys() {
+                var moreBoys = document.getElementById("more-boys");
+                var button = document.getElementById("toggle-boys");
+        
+                if (moreBoys.style.display === "none") {
+                    moreBoys.style.display = "block";
+                    button.textContent = "Lihat Lebih Sedikit";
+                } else {
+                    moreBoys.style.display = "none";
+                    button.textContent = "Lihat Lebih Banyak";
+                }
+            }
+        
+            function toggleMoreGirls() {
+                var moreGirls = document.getElementById("more-girls");
+                var button = document.getElementById("toggle-girls");
+        
+                if (moreGirls.style.display === "none") {
+                    moreGirls.style.display = "block";
+                    button.textContent = "Lihat Lebih Sedikit";
+                } else {
+                    moreGirls.style.display = "none";
+                    button.textContent = "Lihat Lebih Banyak";
+                }
+            }
+        </script>
+         <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
+       
+        
+        
+           
     <footer id="contact">
         <h2>Contact Us</h2>
-        <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/smakanzabasketball" target="_blank">smakanzabaskelball</a></p>
-        <p><img src="gambar/logo instagram.png"  width="20px" height="20px"/> <a href="https://www.instagram.com/hess4_" target="_blank">hess44_</a></p>
-        <p><img src="gambar/whatsapp.png"  width="20px" height="20px"/> <a href="https://wa.me/08995125691" target="_blank"> mahesa </a> </p>
-        
-        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-        
-    </footer>
+        <p><a href="https://www.instagram.com/smakanzabasketball" target="_blank"><img src="gambar/logo instagram.png" alt="Instagram" width="20px" height="20px"> smakanzabasketball</a></p>
+        <p><a href="https://www.instagram.com/hess4_" target="_blank"><img src="gambar/logo instagram.png" alt="Instagram" width="20px" height="20px"> hess4_</a></p>
+        <p><a href="https://wa.me/08995125691" target="_blank"><img src="gambar/whatsapp.png" alt="WhatsApp" width="20px" height="20px"> Mahesa</a></p>
+    </footer> 
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
+       
 
-    <section id="form"></section> 
-    <html lang="en"> </html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Pendaftaran</title>
-    <style>
-        /* Contoh styling sederhana */
-        .form-group {
-            margin-bottom: 15px;
-        }
 
-        .form-label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
+    <section id="form">
+        <h2>Form Pendaftaran</h2>
+        <form action="proses_pendaftaran.php" method="post">
+            <div class="form-group">
+                <label for="nama" class="form-label">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="kelas" class="form-label">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="form-submit" value="Daftar">
+            </div>
+        </form>
+    </section>
 
-        .form-input {
-            width: 100%;
-            padding: 8px;
-            box-sizing: border-box;
-        }
-
-        .form-submit {
-            padding: 10px 20px;
-            background-color: #e93e0a;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .form-submit:hover {
-            background-color: #e93e0a;
-        }
-    </style>
-</head>
-<body>
-    <h2>Form Pendaftaran</h2>
-    <form action="proses_pendaftaran.php" method="post">
-        <!-- Grup untuk input nama -->
-        <div class="form-group">
-            <label for="nama" class="form-label">Nama Lengkap:</label>
-            <input type="text" id="nama" name="nama" class="form-input" required>
-        </div>
-
-        <!-- Grup untuk input email -->
-        <div class="form-group">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" id="email" name="email" class="form-input" required>
-        </div>
-         <!-- Grup untuk input dari kelas berapa -->
-         <div class="form-group">
-            <label for="kelas" class="form-label">Kelas berapa :</label>
-            <input type="kelas" id="kelas" name="kelas" class="form-input" required>
-        </div>
-
-        <!-- Tombol submit -->
-        <div class="form-group">
-            <input type="submit" class="form-submit" value="Daftar">
-        </div>
-        <div class="KEMBALI KE ATAS"><button class="back-to-top" onclick="document.body.scrollIntoView({ behavior: 'smooth' });">Kembali ke Atas</button></div>
-    </form>
-
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Kembali ke Atas</button>
 </body>
 </html>
-
-
-
